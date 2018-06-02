@@ -9,6 +9,10 @@ body, html {
 h1 {
 	font-weight: 400;
 }
+*{
+	margin:0px;
+	padding:0px;
+}
 h2 {
 	line-height: 20px;
 	margin: 0;
@@ -34,7 +38,7 @@ p {
 }
 p.intro {
 	font-size: 16px;
-	margin: 12px 0 0;
+	margin: 0px 0 0;
 	line-height: 24px;
 }
 a {
@@ -145,16 +149,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	height: auto;
-	text-align: center;
+	text-align: left;
 	color: #fff;
-	background: url(../img/intellify.jpg) no-repeat center center;
+	background: url(../img/tree.jpg) no-repeat center right;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
 .intro .overlay {
-	padding: 125px 0;
+	padding: 150px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.6+100 */
 	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -509,3 +513,19 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 }
+.lolp{
+	margin-top:0px;
+	font-size:60px;
+	
+}
+#lol{
+	margin-top:30px;
+	margin-left:none;
+	margin-bottom:40px;
+	margin-right:none;
+	font-size:20px;
+}
+#div_badge{
+	margin-top:500px;
+}
+
